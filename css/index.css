@@ -1,5 +1,7 @@
 .nav-color {
-  animation: pulse 10s infinite;
+  background-color: rgba(0,0,0,0.1);
+  text-decoration-color: #e0e0e0;
+  box-shadow: none;
 }
 
 @keyframes pulse {
@@ -14,8 +16,15 @@
   }
 }
 body {
-    font: 'Open Sans'
+    font: 'Open Sans';
+    background-image: url("http://caskia.me/wp-content/uploads/2018/03/scenery-surreal-landscape-waterscape-on-minimalist-wallpaper-throughout.png");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    height: 100%;
+    overflow:hidden;
 }
+
 .pcontent{
   font-size: 4vw;
 }
@@ -24,4 +33,8 @@ body {
 }
 .rightNav{
   padding-right: 60px; !important
+}
+html, .my-wrapper{
+  height: 90%;
+  overflow:hidden;
 }
