@@ -17,7 +17,7 @@
 }
 body {
     font: 'Open Sans';
-    background-image: url("http://caskia.me/wp-content/uploads/2018/03/scenery-surreal-landscape-waterscape-on-minimalist-wallpaper-throughout.png");
+    background-image: url("../img/mainbg-min.png");
     background-repeat: no-repeat;
     height: 100vh;
     background-size: cover;
@@ -38,3 +38,4 @@ html, .my-wrapper{
   height: 90%;
   overflow:hidden;
 }
+
