@@ -13,8 +13,15 @@
     background-color: #3877ED;
   }
 }
-body,
-html {
-    height: 100%
+body {
     font: 'Open Sans'
+}
+.pcontent{
+  font-size: 4vw;
+}
+.leftNav{
+  padding-left: 60px; !important
+}
+.rightNav{
+  padding-right: 60px; !important
 }
