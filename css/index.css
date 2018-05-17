@@ -1,0 +1,20 @@
+.nav-color {
+  animation: pulse 10s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #3877ED;
+}
+  50%{
+    background-color: #1351C4;
+  }
+  100% {
+    background-color: #3877ED;
+  }
+}
+body,
+html {
+    height: 100%
+    font: 'Open Sans'
+}
