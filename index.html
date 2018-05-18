@@ -12,7 +12,6 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 </head>
 
 <body>
@@ -26,7 +25,7 @@
                 </ul>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li class=""><a href="#">Register</a></li>
-                    <li class="rightNav"><a href="#">Login</a></li>
+                    <li class="rightNav" onclick="$('#modal1').modal('open');"><a href="#modal1">Login</a></li>
                 </ul>
             </div>
         </nav>
@@ -54,7 +53,34 @@
             </div>
         </div>
     </div>
+    
+    <div id="modal1" style="height:40%;width:20%;" class="valign-wrapper modal modal-fixed-footer">
+    <div class="modal-content">
+      <div class="row">
+    <form class="col s12">
+        <div class="input-field col s6">
+          <input id="email" type="text" class="validate">
+          <label for="email">Email</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="password" type="text" class="validate">
+          <label for="password">Password</label>
+        </div>
+    </form>
+  </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
 </body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        $("#modal1").modal();
+    });
+</script>
 
 </html>
