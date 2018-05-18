@@ -60,3 +60,7 @@ html, .my-wrapper{
     height: 100%;
     z-index: -1;
 }
+
+.search-input {
+  font-size: 2vw !important;
+}
