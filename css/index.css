@@ -3,26 +3,34 @@
   text-decoration-color: #e0e0e0;
   box-shadow: none;
 }
-
-@keyframes pulse {
-  0% {
-    background-color: #3877ED;
-}
-  50%{
-    background-color: #1351C4;
-  }
-  100% {
-    background-color: #3877ED;
-  }
-}
 body {
     font: 'Open Sans';
-    background-image: url("../img/mainbg-min.png");
+    animation: pulse 20s infinite;
     background-repeat: no-repeat;
     height: 100vh;
     background-size: cover;
     height: 100%;
     overflow:hidden;
+}
+@keyframes pulse {
+  0% {
+    background-color: #0095E0;
+}
+  20% {
+    background-color: #337CA0;
+}
+  40%{
+    background-color: #1351C4;
+  }
+  60% {
+    background-color: #30BAFF;
+  }
+  80%{
+    background-color: #14B0FF;
+  }
+  100% {
+    background-color: #0095E0;
+  }
 }
 
 .pcontent{
@@ -38,4 +46,11 @@ html, .my-wrapper{
   height: 90%;
   overflow:hidden;
 }
-
+.smlModal{
+  width:30%;
+  height: 60% !important;
+  transform: translateY(20%) !important;
+}
+.col.s12 > .btn {
+   width: 100%;
+}
