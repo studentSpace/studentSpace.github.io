@@ -16,13 +16,20 @@
 
 <body>
   <div id="particles-js"></div>
+  <ul id="dropdown1" class="dropdown-content">
+  <li><a href="#!">AP Courses</a></li>
+  <li><a href="#!">General Courses</a></li>
+  <li class="divider"></li>
+  <li><a href="#!">Specialty Courses</a></li>
+</ul>
     <div class="navbar-fixed">
         <nav class="nav-color">
             <div class="nav-wrapper">
                 <a href="#" class="brand-logo center">StudentSpace</a>
                 <ul id="nav-mobile" class="left hide-on-med-and-down">
                     <li class="leftNav"><a href="#">Communities<i class="material-icons right">arrow_drop_down</i></a></li>
-                    <li><a href="#">Subjects<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Subjects<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a class="" href="#!" data-activates="">Resources<i class="material-icons right">arrow_drop_down</i></a></li>
                 </ul>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li class=""><a href="#">Register</a></li>
@@ -77,6 +84,11 @@
     $(document).ready(function() {
         $("#modal1").modal();
     });
+</script>
+<script>
+$(document).ready(function(){
+  $(".dropdown-button").dropdown();
+})
 </script>
 
 </html>
