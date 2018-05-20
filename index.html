@@ -32,7 +32,7 @@
                     <li><a class="" href="#!" data-activates="">Resources<i class="material-icons right">arrow_drop_down</i></a></li>
                 </ul>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li class=""><a href="#">Register</a></li>
+                    <li class="" onclick="$('#modal2').modal('open');"><a href="#modal2">Register</a></li>
                     <li class="rightNav" onclick="$('#modal1').modal('open');"><a href="#modal1">Login</a></li>
                 </ul>
             </div>
@@ -72,6 +72,27 @@
     </div>
     </form>
   </div>
+  <div id="modal2" class="smlModal valign-wrapper modal modal-fixed-footer">
+  <div class="modal-content">
+    <div class="container">
+  <form class="col s12">
+    <p class="flow-text">Please enter your Email and Password.</p>
+      <div class="input-field col s6">
+        <input id="email" type="text" class="validate">
+        <label for="email">Email</label>
+      </div>
+      <div class="input-field col s6">
+        <input id="password" type="text" class="validate">
+        <label for="password">Password</label>
+      </div>
+      <br>
+        <div class="col s12">
+                <a class="btn blue darken-1 waves-effect waves-light btn-large">Login</a>
+        </div>
+    </div>
+  </div>
+  </form>
+</div>
     </div>
   </div>
 </body>
@@ -83,6 +104,7 @@
 <script>
     $(document).ready(function() {
         $("#modal1").modal();
+        $("#modal2").modal();
     });
 </script>
 <script>

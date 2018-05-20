@@ -28,7 +28,7 @@ html, .my-wrapper{
 }
 .smlModal{
   width:30%;
-  height: 60% !important;
+  height: 50% !important;
   transform: translateY(20%) !important;
 }
 .col.s12 > .btn {
