@@ -38,7 +38,7 @@
             </div>
         </nav>
     </div>
-    
+
     <div class="valign-wrapper my-wrapper">
         <div class="container">
             <div class="row">
@@ -52,14 +52,14 @@
             <div class="center-align col s12">
             <a class="hide-on-large-only btn blue darken-1 waves-effect waves-light btn-large" onclick="$('#modal2').modal('open');" a href="#modal2">Register</a>
             <br></br>
-            <a class="hide-on-large-only btn blue darken-1 waves-effect waves-light btn-large" onclick="$('#modal2').modal('open');" a href="#modal3">Login</a>
+            <a class="hide-on-large-only btn blue darken-1 waves-effect waves-light btn-large" onclick="$('#modal3').modal('open');" a href="#modal3">Login</a>
             </div>
         </div>
     </div>
 
     <div id="modal1" class="smlModal valign-wrapper modal modal-fixed-footer">
         <div class="modal-content">
-            <a href="#" class="modal-button modal-button-close modal-close"><i class="small mdlExit material-icons">clear</i></a>
+            <a href="#" class="modal-button modal-button-close modal-close" onclick="$('#modal2').modal('close');"><i class="small mdlExit material-icons">clear</i></a>
             <div class="container">
                 <form class="col s12">
                     <p class="flow-text">Please enter your Email and Password.</p>
@@ -81,7 +81,7 @@
     </div>
     <div id="modal3" class="lgModal valign-wrapper modal modal-fixed-footer">
         <div class="modal-content">
-            <a href="#" class="modal-button modal-button-close modal-close"><i class="small mdlExit material-icons">clear</i></a>
+            <a href="#" class="modal-button modal-button-close modal-close" onclick="$('#modal3').modal('close');"><i class="small mdlExit material-icons">clear</i></a>
             <div style="width:70% !important" class="container my-wrapper valign-wrapper center-align">
                 <form class="col s12 center-align">
                     <p class="flow-text">Please enter your Email and Password.</p>
@@ -249,8 +249,12 @@
     $(document).ready(function() {
         $("#modal1").modal();
         $("#modal2").modal();
-        $("#modal3").modal();
     });
+</script>
+<script>
+$(document).ready(function(){
+  $("#modal3").modal();
+});
 </script>
 <script>
     $(document).ready(function() {

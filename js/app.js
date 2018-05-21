@@ -10,7 +10,7 @@ particlesJS('particles-js',
       }
     },
     "color": {
-      "value": "#6974E8"
+      "value": ["#FFFFFF"]
     },
     "shape": {
       "type": "circle",
@@ -23,7 +23,7 @@ particlesJS('particles-js',
       },
     },
     "opacity": {
-      "value": .7,
+      "value": .8 ,
       "random": false,
       "anim": {
         "enable": false,
