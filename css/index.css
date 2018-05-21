@@ -23,7 +23,7 @@ body {
   padding-right: 60px; !important
 }
 html, .my-wrapper{
-  height: 95%;
+  height: 100%;
   overflow:hidden;
 }
 .smlModal{
@@ -71,6 +71,6 @@ html, .my-wrapper{
 }
 .ssHead{
   -webkit-animation-duration: 1s;
-  -webkit-animation-delay: .4s;
+  -webkit-animation-delay: .3s;
   -webkit-animation-iteration-count: 1;
 }
