@@ -82,7 +82,7 @@ html, .my-wrapper {
   position: absolute;
   top: 0px;
   right: 0px;
-  color: #6974EA !important;
+  color: #71A9F7 !important;
 }
 
 .ssHead {
@@ -94,11 +94,11 @@ html, .my-wrapper {
   width: 100%;
 }
 .g-btn{
-  background-color: #6974EA !important;
+  background-color: #71A9F7 !important;
 }
 .g-btn:hover{
   background: #FFF;
 }
 .g-text{
-  color: #6974EA !important;
+  color: #71A9F7 !important;
 }
