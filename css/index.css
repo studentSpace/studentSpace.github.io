@@ -69,3 +69,8 @@ html, .my-wrapper{
     top: 0px;
     right: 0px;
 }
+.ssHead{
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: .4s;
+  -webkit-animation-iteration-count: 1;
+}
