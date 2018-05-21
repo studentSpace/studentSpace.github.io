@@ -29,7 +29,7 @@ html, .my-wrapper{
 .smlModal{
   width:30%;
   height: 50% !important;
-  transform: translateY(20%) !important;
+  transform: translateY(30%) !important;
 }
 .col.s12 > .btn {
    width: 100%;
@@ -43,4 +43,15 @@ html, .my-wrapper{
 
 .search-input {
   font-size: 1.7vw !important;
+}
+.lgModal{
+    width: 100%;
+    max-height: 100% !important;
+    min-height: 100% !important;
+    height: 100%;
+    top: 0 !important;
+}
+.helpIcon {
+   vertical-align: bottom;
+   font-size: 35px !important;
 }

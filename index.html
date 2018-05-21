@@ -72,24 +72,138 @@
     </div>
     </form>
   </div>
-  <div id="modal2" class="smlModal valign-wrapper modal modal-fixed-footer">
+  <div id="modal2" class="lgModal valign-wrapper modal modal-fixed-footer">
   <div class="modal-content">
     <div class="container">
   <form class="col s12">
-    <p class="flow-text">Please enter your Email and Password.</p>
-      <div class="input-field col s6">
-        <input id="email" type="text" class="validate">
-        <label for="email">Email</label>
+    <h4 class="blue-text text-darken-1">Register on StudentSpace</h4>
+    <p class="flow-text">I am a...</p>
+    <div class="input-field col s12">
+    <select>
+      <option value="" disabled selected>Choose your option</option>
+      <option value="1">Student</option>
+      <option value="2">Educator</option>
+      <option value="3">Parent</option>
+    </select>
+  </div>
+  <div class="row">
+    <div class="col s4">
+<p class="flow-text">Birthdate</p>
+<input type="text" placeholder="MM/DD/YEAR">
+</div>
+<div class="col s4">
+<p class="flow-text">Institution</p>
+<input type="text" placeholder="Ex. Legend High School">
+</div>
+<div class="col s4">
+<p class="flow-text">Access Code (Optional)</p>
+<input type="text" placeholder="Ex. 123456">
+</div>
+</div>
+<p class="flow-text">What do you want to learn/teach?</p>
+<div class="row">
+  <div class="col s4">
+        <label>
+          <input type="checkbox" />
+          <span>Science</span>
+        </label>
       </div>
-      <div class="input-field col s6">
-        <input id="password" type="text" class="validate">
-        <label for="password">Password</label>
+      <div class="col s4">
+            <label>
+              <input type="checkbox" />
+              <span>English</span>
+            </label>
+          </div>
+          <div class="col s4">
+                <label>
+                  <input type="checkbox" />
+                  <span>Foreign Language</span>
+                </label>
+              </div>
+</div>
+<div class="row">
+  <div class="col s4">
+        <label>
+          <input type="checkbox" />
+          <span>Mathematics</span>
+        </label>
       </div>
-      <br>
-        <div class="col s12">
-                <a class="btn blue darken-1 waves-effect waves-light btn-large">Login</a>
-        </div>
+      <div class="col s4">
+            <label>
+              <input type="checkbox" />
+              <span>Practical Arts</span>
+            </label>
+          </div>
+          <div class="col s4">
+                <label>
+                  <input type="checkbox" />
+                  <span>History</span>
+                </label>
+              </div>
+</div>
+<div class="row">
+  <div class="col s4">
+        <label>
+          <input type="checkbox" />
+          <span>Economics</span>
+        </label>
+      </div>
+      <div class="col s4">
+            <label>
+              <input type="checkbox" />
+              <span>Psychology</span>
+            </label>
+          </div>
+          <div class="col s4">
+                <label>
+                  <input type="checkbox" />
+                  <span>Physical education</span>
+                </label>
+              </div>
+</div>
+<br></br>
+<h4 class=""> Personal Information</h4>
+<div class="row">
+  <div class="col s4">
+    <p class="flow-text">First Name</p>
+    <input type="text" placeholder="ex. John">
+  </div>
+    <div class="col s4">
+      <p class="flow-text">Last Name</p>
+      <input type="text" placeholder="ex. Smith">
     </div>
+    <div class="col s4">
+      <p class="flow-text">Student ID (Optional) <a class="hide-on-med-and-down tooltipped" data-position="top" data-tooltip="Student IDs are typically provided by your school district. It is most commonly a six digit number."><i class="hide-on-med-and-down helpIcon small material-icons">help_outline</i></a></p>
+      <input type="text" placeholder="ex. 167845">
+    </div>
+</div>
+<div class="row">
+  <div class="col s4">
+    <p class="flow-text">Email</p>
+    <input type="text" placeholder="ex. fred@gmail.com">
+  </div>
+  <div class="col s4">
+    <p class="flow-text">Confirm Email</p>
+    <input type="text" placeholder="ex. fred@gmail.com">
+  </div>
+  <div class="col s4">
+    <p class="flow-text">Username</p>
+    <input type="text" placeholder="ex. fred@gmail.com">
+  </div>
+</div>
+<div class="row">
+  <div class="col s6">
+    <p class="flow-text">Password</p>
+    <input id="password" type="password" class="validate">
+  </div>
+  <div class="col s6">
+    <p class="flow-text">Confirm Password</p>
+    <input id="password" type="password" class="validate">
+  </div>
+</div>
+<div class="col s12">
+        <a class="btn blue darken-1 waves-effect waves-light btn-large">Register</a>
+</div>
   </div>
   </form>
 </div>
@@ -111,6 +225,14 @@
 $(document).ready(function(){
   $(".dropdown-button").dropdown();
 })
+</script>
+<script>
+$(document).ready(function() {
+   $('select').material_select();
+ });
+
+</script>
+<script>
 </script>
 
 </html>
