@@ -55,3 +55,10 @@ html, .my-wrapper{
    vertical-align: bottom;
    font-size: 35px !important;
 }
+.loginModalSml{
+    width: 100%;
+    max-height: 100% !important;
+    min-height: 100% !important;
+    height: 100%;
+    top: 0 !important;
+}
