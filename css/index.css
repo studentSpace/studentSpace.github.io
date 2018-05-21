@@ -84,6 +84,14 @@ html, .my-wrapper {
   right: 0px;
   color: #71A9F7 !important;
 }
+.mdlExitLg {
+  padding-top: 1%;
+  padding-right: 3%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  color: #71A9F7 !important;
+}
 
 .ssHead {
   -webkit-animation-duration: 1s;
