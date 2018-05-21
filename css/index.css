@@ -62,3 +62,10 @@ html, .my-wrapper{
     height: 100%;
     top: 0 !important;
 }
+.mdlExit{
+    padding-top: 3%;
+    padding-right: 3%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
