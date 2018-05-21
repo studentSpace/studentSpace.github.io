@@ -89,3 +89,18 @@ html, .my-wrapper {
   -webkit-animation-delay: .3s;
   -webkit-animation-iteration-count: 1;
 }
+.col.s12>.g-btn {
+  width: 100%;
+}
+.g-btn{
+  background-color: #6974EA !important;
+}
+.g-btn:hover{
+  background: #FFF;
+}
+.g-text{
+  color: #6974EA !important;
+}
+i{
+  color: #6974EA !important;
+}
