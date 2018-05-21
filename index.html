@@ -43,12 +43,24 @@
     <div class="container">
       <div class="animated fadeIn row ssHead">
         <div class="col s12 m6 offset-m3 callout">
-          <img class="responsive-img" src="StudentSpace.svg">
+          <img class="responsive-img logoSS center-align" src="StudentSpace.svg">
           <div>
             <blockquote class="white-text flow-text">A community of students, teachers, and like minded thinkers.</blockquote>
           </div>
+          <nav class="hide-on-med-and-down searchBar">
+            <div class="nav-wrapper">
+              <form>
+                <div class="white input-field searchBar">
+                  <input style="font-size:1.4vw;"class="searchText searchBar" id="search" type="search" placeholder="What do you want to learn?" required>
+                  <label class="black-text label-icon" for="search"><i class="black-text searchIcon material-icons">search</i></label>
+                  <i class="searchIcon material-icons">close</i>
+                </div>
+              </form>
+            </div>
+          </nav>
         </div>
       </div>
+
       <div class="center-align col s12">
         <a class="animated fadeIn ssHead hide-on-large-only g-btn waves-effect waves-light btn-large" onclick="$('#modal2').modal('open');" a href="#modal2">Register</a>
         <br></br>

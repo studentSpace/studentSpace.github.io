@@ -102,3 +102,15 @@ html, .my-wrapper {
 .g-text{
   color: #71A9F7 !important;
 }
+.logoSS{
+  width: 90%;
+  height: 90%
+  position: relative;
+  transform: translateX(6%) !important;
+}
+.searchBar, .searchbar:active{
+  border-radius: 40px;
+}
+.input.searchBar:active{
+  border-radius: 40px;
+}
