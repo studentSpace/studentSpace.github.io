@@ -144,3 +144,6 @@ html,
 input.searchBar:active {
     border-radius: 40px;
 }
+.nav-wrapper .input-field input[type=search]{
+    border-radius: 40px !important;
+}
