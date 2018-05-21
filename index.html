@@ -2,265 +2,265 @@
 <html>
 
 <head>
-  <meta charset="UTF-8">
-  <title>studentSpace</title>
-  <link rel="stylesheet" type="text/css" href="css/materialize/css/materialize.css">
-  <link rel="stylesheet" type="text/css" href="css/materialize/css/materialize.min.css">
-  <link rel="stylesheet" type="text/css" href="css/hover/css/hover.css">
-  <link rel="stylesheet" href="css/animate.css">
-  <link rel="stylesheet" href="css/index.css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <title>studentSpace</title>
+    <link rel="stylesheet" type="text/css" href="css/materialize/css/materialize.css">
+    <link rel="stylesheet" type="text/css" href="css/materialize/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/hover/css/hover.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
-  <div id="particles-js"></div>
-  <ul id="dropdown1" class="dropdown-content">
-    <li><a href="#!">AP Courses</a></li>
-    <li><a href="#!">General Courses</a></li>
-    <li class="divider"></li>
-    <li><a href="#!">Specialty Courses</a></li>
-  </ul>
-  <div class="navbar-fixed">
-    <nav class="nav-color">
-      <div class="nav-wrapper">
-        <a href="#" class="brand-logo center"></a>
-        <ul id="nav-mobile" class="left hide-on-med-and-down">
-          <li class="leftNav"><a href="#">Communities<i class="material-icons right">arrow_drop_down</i></a></li>
-          <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Subjects<i class="material-icons right">arrow_drop_down</i></a></li>
-          <li><a class="" href="#!" data-activates="">Resources<i class="material-icons right">arrow_drop_down</i></a></li>
-        </ul>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li class="" onclick="$('#modal2').modal('open');"><a href="#modal2">Register</a></li>
-          <li class="rightNav" onclick="$('#modal1').modal('open');"><a href="#modal1">Login</a></li>
-        </ul>
-      </div>
-    </nav>
-  </div>
-
-  <div class="valign-wrapper my-wrapper">
-    <div class="container">
-      <div class="animated fadeIn row ssHead">
-        <div class="col s12 m6 offset-m3 callout">
-          <img class="responsive-img logoSS center-align" src="StudentSpace.svg">
-          <div>
-            <blockquote class="white-text flow-text">A community of students, teachers, and like minded thinkers.</blockquote>
-          </div>
-          <nav class="hide-on-med-and-down searchBar">
+    <div id="particles-js"></div>
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#!">AP Courses</a></li>
+        <li><a href="#!">General Courses</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">Specialty Courses</a></li>
+    </ul>
+    <div class="navbar-fixed">
+        <nav class="nav-color">
             <div class="nav-wrapper">
-              <form>
-                <div class="white input-field searchBar">
-                  <input style="font-size: 1.4vw" class="searchText searchBar" id="search" type="search" placeholder="What do you want to learn?" required>
-                  <label class="black-text label-icon" for="search"><i class="black-text searchIcon material-icons">search</i></label>
-                  <i class="searchIcon material-icons">close</i>
-                </div>
-              </form>
+                <a href="#" class="brand-logo center"></a>
+                <ul id="nav-mobile" class="left hide-on-med-and-down">
+                    <li class="leftNav"><a href="#">Communities<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Subjects<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a class="" href="#!" data-activates="">Resources<i class="material-icons right">arrow_drop_down</i></a></li>
+                </ul>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li class="" onclick="$('#modal2').modal('open');"><a href="#modal2">Register</a></li>
+                    <li class="rightNav" onclick="$('#modal1').modal('open');"><a href="#modal1">Login</a></li>
+                </ul>
             </div>
-          </nav>
-        </div>
-      </div>
-      <div class="center-align col s12">
-        <a class="animated fadeIn ssHead hide-on-large-only g-btn waves-effect waves-light btn-large" onclick="$('#modal2').modal('open');" a href="#modal2">Register</a>
-        <br></br>
-        <a class="animated fadeIn ssHead hide-on-large-only g-btn waves-effect waves-light btn-large" onclick="$('#modal3').modal('open');" a href="#modal3">Login</a>
-      </div>
+        </nav>
     </div>
-  </div>
 
-  <div id="modal1" class="smlModal valign-wrapper modal modal-fixed-footer">
-    <div class="modal-content">
-      <a href="#" class="modal-button modal-button-close modal-close" onclick="$('#modal3').modal('close');"><i class="small mdlExit material-icons">clear</i></a>
-      <div class="container my-wrapper valign-wrapper center-align" align="center">
-        <div class="row">
-          <form>
-            <div class="row">
-              <p class="flow-text">Please enter your Email and Password.</p>
-              <div class="input-field col s12">
-                <input id="email" type="text" class="validate">
-                <label for="email">Email</label>
-              </div>
-              <div class="input-field col s12">
-                <input id="password" type="text" class="validate">
-                <label for="password">Password</label>
-              </div>
-              <br>
-              <div class="col s12">
-                <a class="btn g-btn waves-effect waves-light btn-large">Login</a>
-              </div>
-          </form>
-          </div>
+    <div class="valign-wrapper my-wrapper">
+        <div class="container">
+            <div class="animated fadeIn row ssHead">
+                <div class="col s12 m6 offset-m3 callout">
+                    <img class="responsive-img logoSS center-align" src="StudentSpace.svg">
+                    <div>
+                        <blockquote class="white-text flow-text">A community of students, teachers, and like minded thinkers.</blockquote>
+                    </div>
+                    <nav class="hide-on-med-and-down searchBar">
+                        <div class="nav-wrapper">
+                            <form>
+                                <div class="white input-field searchBar">
+                                    <input style="font-size: 1.4vw" class="searchText searchBar" id="search" type="search" placeholder="What do you want to learn?" required>
+                                    <label class="black-text label-icon" for="search"><i class="black-text searchIcon material-icons">search</i></label>
+                                    <i class="searchIcon material-icons">close</i>
+                                </div>
+                            </form>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="center-align col s12">
+                <a class="animated fadeIn ssHead hide-on-large-only g-btn waves-effect waves-light btn-large" onclick="$('#modal2').modal('open');" a href="#modal2">Register</a>
+                <br></br>
+                <a class="animated fadeIn ssHead hide-on-large-only g-btn waves-effect waves-light btn-large" onclick="$('#modal3').modal('open');" a href="#modal3">Login</a>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
-  <div id="modal3" class="lgModal valign-wrapper modal modal-fixed-footer">
-    <div class="modal-content">
-      <a href="#" class="modal-button modal-button-close modal-close" onclick="$('#modal3').modal('close');"><i class="small mdlExit material-icons">clear</i></a>
-      <div class="container my-wrapper valign-wrapper center-align" align="center">
-        <div class="row">
-          <form>
-            <div class="row">
-              <p class="flow-text">Please enter your Email and Password.</p>
-              <div class="input-field col s12">
-                <input id="email" type="text" class="validate">
-                <label for="email">Email</label>
-              </div>
-              <div class="input-field col s12">
-                <input id="password" type="text" class="validate">
-                <label for="password">Password</label>
-              </div>
-              <br>
-              <div class="col s12">
-                <a class="btn g-btn waves-effect waves-light btn-large">Login</a>
-              </div>
-          </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  </div>
-  <div id="modal2" class="lgModal valign-wrapper modal modal-fixed-footer">
-    <div class="modal-content">
-      <a href="#" class="hide-on-med-and-up modal-button modal-button-close modal-close"><i class="small mdlExit material-icons">clear</i></a>
-      <a href="#" class="hide-on-small-only modal-button modal-button-close modal-close"><i class="small mdlExitLg material-icons">clear</i></a>
-      <div class="container">
-        <form class="col s12">
-          <h4 class="g-text">Register on StudentSpace</h4>
-          <p class="flow-text">I am a...</p>
-          <div class="input-field col s12">
-            <select>
+    <div id="modal1" class="smlModal valign-wrapper modal modal-fixed-footer">
+        <div class="modal-content">
+            <a href="#" class="modal-button modal-button-close modal-close" onclick="$('#modal3').modal('close');"><i class="small mdlExit material-icons">clear</i></a>
+            <div class="container my-wrapper valign-wrapper center-align" align="center">
+                <div class="row">
+                    <form>
+                        <div class="row">
+                            <p class="flow-text">Please enter your Email and Password.</p>
+                            <div class="input-field col s12">
+                                <input id="email" type="text" class="validate">
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <input id="password" type="text" class="validate">
+                                <label for="password">Password</label>
+                            </div>
+                            <br>
+                            <div class="col s12">
+                                <a class="btn g-btn waves-effect waves-light btn-large">Login</a>
+                            </div>
+                    </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal3" class="lgModal valign-wrapper modal modal-fixed-footer">
+        <div class="modal-content">
+            <a href="#" class="modal-button modal-button-close modal-close" onclick="$('#modal3').modal('close');"><i class="small mdlExit material-icons">clear</i></a>
+            <div class="container my-wrapper valign-wrapper center-align" align="center">
+                <div class="row">
+                    <form>
+                        <div class="row">
+                            <p class="flow-text">Please enter your Email and Password.</p>
+                            <div class="input-field col s12">
+                                <input id="email" type="text" class="validate">
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <input id="password" type="text" class="validate">
+                                <label for="password">Password</label>
+                            </div>
+                            <br>
+                            <div class="col s12">
+                                <a class="btn g-btn waves-effect waves-light btn-large">Login</a>
+                            </div>
+                    </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <div id="modal2" class="lgModal valign-wrapper modal modal-fixed-footer">
+        <div class="modal-content">
+            <a href="#" class="hide-on-med-and-up modal-button modal-button-close modal-close"><i class="small mdlExit material-icons">clear</i></a>
+            <a href="#" class="hide-on-small-only modal-button modal-button-close modal-close"><i class="small mdlExitLg material-icons">clear</i></a>
+            <div class="container">
+                <form class="col s12">
+                    <h4 class="g-text">Register on StudentSpace</h4>
+                    <p class="flow-text">I am a...</p>
+                    <div class="input-field col s12">
+                        <select>
       <option value="" disabled selected>Choose your option</option>
       <option value="1">Student</option>
       <option value="2">Educator</option>
       <option value="3">Parent</option>
     </select>
-          </div>
-          <div class="row">
-            <div class="col s12 m4">
-              <p class="flow-text">Birthdate</p>
-              <input type="text" placeholder="MM/DD/YEAR">
-            </div>
-            <div class="col s12 m4">
-              <p class="flow-text">Institution</p>
-              <input type="text" placeholder="Ex. Legend High School">
-            </div>
-            <div class="col s12 m4">
-              <p class="flow-text">Access Code (Optional)</p>
-              <input type="text" placeholder="Ex. 123456">
-            </div>
-          </div>
-          <p class="flow-text">What do you want to learn/teach?</p>
-          <div class="row">
-            <div class="col s12 m4">
-              <label>
+                    </div>
+                    <div class="row">
+                        <div class="col s12 m4">
+                            <p class="flow-text">Birthdate</p>
+                            <input type="text" placeholder="MM/DD/YEAR">
+                        </div>
+                        <div class="col s12 m4">
+                            <p class="flow-text">Institution</p>
+                            <input type="text" placeholder="Ex. Legend High School">
+                        </div>
+                        <div class="col s12 m4">
+                            <p class="flow-text">Access Code (Optional)</p>
+                            <input type="text" placeholder="Ex. 123456">
+                        </div>
+                    </div>
+                    <p class="flow-text">What do you want to learn/teach?</p>
+                    <div class="row">
+                        <div class="col s12 m4">
+                            <label>
           <input type="checkbox" />
           <span>Science</span>
         </label>
-            </div>
-            <div class="col s12 m4">
-              <label>
+                        </div>
+                        <div class="col s12 m4">
+                            <label>
               <input type="checkbox" />
               <span>English</span>
             </label>
-            </div>
-            <div class="col s12 m4">
-              <label>
+                        </div>
+                        <div class="col s12 m4">
+                            <label>
                   <input type="checkbox" />
                   <span>Foreign Language</span>
                 </label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col s12 m4">
-              <label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s12 m4">
+                            <label>
           <input type="checkbox" />
           <span>Mathematics</span>
         </label>
-            </div>
-            <div class="col s12 m4">
-              <label>
+                        </div>
+                        <div class="col s12 m4">
+                            <label>
               <input type="checkbox" />
               <span>Practical Arts</span>
             </label>
-            </div>
-            <div class="col s12 m4">
-              <label>
+                        </div>
+                        <div class="col s12 m4">
+                            <label>
                   <input type="checkbox" />
                   <span>History</span>
                 </label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col s12 m4">
-              <label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s12 m4">
+                            <label>
           <input type="checkbox" />
           <span>Economics</span>
         </label>
-            </div>
-            <div class="col s12 m4">
-              <label>
+                        </div>
+                        <div class="col s12 m4">
+                            <label>
               <input type="checkbox" />
               <span>Psychology</span>
             </label>
-            </div>
-            <div class="col s12 m4">
-              <label>
+                        </div>
+                        <div class="col s12 m4">
+                            <label>
                   <input type="checkbox" />
                   <span>Physical education</span>
                 </label>
+                        </div>
+                    </div>
+                    <br></br>
+                    <h4 class=""> Personal Information</h4>
+                    <div class="row">
+                        <div class="col s12 m4">
+                            <p class="flow-text">First Name</p>
+                            <input type="text" placeholder="ex. John">
+                        </div>
+                        <div class="col s12 m4">
+                            <p class="flow-text">Last Name</p>
+                            <input type="text" placeholder="ex. Smith">
+                        </div>
+                        <div class="col s12 m4">
+                            <p class="flow-text">Student ID (Optional) <a class="hide-on-med-and-down tooltipped" data-position="top" data-tooltip="Student IDs are typically provided by your school district. It is most commonly a six digit number."><i class="hide-on-med-and-down helpIcon small material-icons">help_outline</i></a></p>
+                            <input type="text" placeholder="ex. 167845">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s12 m4">
+                            <p class="flow-text">Email</p>
+                            <input type="text" placeholder="ex. fred@gmail.com">
+                        </div>
+                        <div class="col s12 m4">
+                            <p class="flow-text">Confirm Email</p>
+                            <input type="text" placeholder="ex. fred@gmail.com">
+                        </div>
+                        <div class="col s12 m4">
+                            <p class="flow-text">Username</p>
+                            <input type="text" placeholder="ex. fred@gmail.com">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s12 m6">
+                            <p class="flow-text">Password</p>
+                            <input id="password" type="password" class="validate">
+                        </div>
+                        <div class="col s12 m6">
+                            <p class="flow-text">Confirm Password</p>
+                            <input id="password" type="password" class="validate">
+                        </div>
+                    </div>
+                    <div class="col s12">
+                        <a class="btn g-btn waves-effect waves-light btn-large">Register</a>
+                    </div>
             </div>
-          </div>
-          <br></br>
-          <h4 class=""> Personal Information</h4>
-          <div class="row">
-            <div class="col s12 m4">
-              <p class="flow-text">First Name</p>
-              <input type="text" placeholder="ex. John">
-            </div>
-            <div class="col s12 m4">
-              <p class="flow-text">Last Name</p>
-              <input type="text" placeholder="ex. Smith">
-            </div>
-            <div class="col s12 m4">
-              <p class="flow-text">Student ID (Optional) <a class="hide-on-med-and-down tooltipped" data-position="top" data-tooltip="Student IDs are typically provided by your school district. It is most commonly a six digit number."><i class="hide-on-med-and-down helpIcon small material-icons">help_outline</i></a></p>
-              <input type="text" placeholder="ex. 167845">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col s12 m4">
-              <p class="flow-text">Email</p>
-              <input type="text" placeholder="ex. fred@gmail.com">
-            </div>
-            <div class="col s12 m4">
-              <p class="flow-text">Confirm Email</p>
-              <input type="text" placeholder="ex. fred@gmail.com">
-            </div>
-            <div class="col s12 m4">
-              <p class="flow-text">Username</p>
-              <input type="text" placeholder="ex. fred@gmail.com">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col s12 m6">
-              <p class="flow-text">Password</p>
-              <input id="password" type="password" class="validate">
-            </div>
-            <div class="col s12 m6">
-              <p class="flow-text">Confirm Password</p>
-              <input id="password" type="password" class="validate">
-            </div>
-          </div>
-          <div class="col s12">
-            <a class="btn g-btn waves-effect waves-light btn-large">Register</a>
-          </div>
-      </div>
-      </form>
+            </form>
+        </div>
     </div>
-  </div>
-  </div>
+    </div>
 </body>
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
@@ -268,25 +268,25 @@
 <script src="js/app.js"></script>
 
 <script>
-  $(document).ready(function() {
-    $("#modal1").modal();
-    $("#modal2").modal();
-  });
+    $(document).ready(function() {
+        $("#modal1").modal();
+        $("#modal2").modal();
+    });
 </script>
 <script>
-  $(document).ready(function() {
-    $("#modal3").modal();
-  });
+    $(document).ready(function() {
+        $("#modal3").modal();
+    });
 </script>
 <script>
-  $(document).ready(function() {
-    $(".dropdown-button").dropdown();
-  })
+    $(document).ready(function() {
+        $(".dropdown-button").dropdown();
+    })
 </script>
 <script>
-  $(document).ready(function() {
-    $('select').material_select();
-  });
+    $(document).ready(function() {
+        $('select').material_select();
+    });
 </script>
 <script>
 </script>
