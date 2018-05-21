@@ -82,6 +82,7 @@ html, .my-wrapper {
   position: absolute;
   top: 0px;
   right: 0px;
+  color: #6974EA !important;
 }
 
 .ssHead {
@@ -99,8 +100,5 @@ html, .my-wrapper {
   background: #FFF;
 }
 .g-text{
-  color: #6974EA !important;
-}
-i{
   color: #6974EA !important;
 }
