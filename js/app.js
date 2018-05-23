@@ -108,3 +108,11 @@ particlesJS('particles-js',
 
 
 );
+
+new Typed(".searchText", {
+  strings: ["What would you like to learn?", "Σ"],
+  attr: "placeholder",
+  typeSpeed: 40,
+  startDelay: 1000,
+  backDelay: 10000
+});
