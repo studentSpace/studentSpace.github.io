@@ -3173,7 +3173,7 @@ td, th {
 
 .secondary-content {
   float: right;
-  color: #26a69a;
+  color: #4D5061 !important;
 }
 
 .collapsible .collection {

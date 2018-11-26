@@ -108,9 +108,25 @@ html, .my-wrapper {
   position: relative;
   transform: translateX(6%) !important;
 }
+.studentWelcome{
+  width: 100%;
+  height: 100%
+  position: relative;
+}
+.studentWelcomeButton{
+  width: 100%;
+  margin-bottom: 15px ;
+  height: 100%
+  position: relative;
+}
 .searchBar, .searchbar:active{
   border-radius: 40px;
 }
 .input.searchBar:active{
   border-radius: 40px;
+}
+.backNav{
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 20px;
 }
