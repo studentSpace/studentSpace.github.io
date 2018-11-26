@@ -13,6 +13,22 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
+<script>
+    function copyToClipboard(element) {
+
+        var $temp = $("<input>");
+        $("body").append($temp);
+        $temp.val($(element).text()).select();
+        document.execCommand("copy");
+        $temp.remove();
+        (function($, _M) {
+            _M.toast(
+                'Copied to Clipboard', 1000,
+            );
+        }(jQuery, Materialize));
+    }
+</script>
+
 <body>
     <div class="fixed-action-btn">
         <a class="btn-floating btn-large grey">
@@ -32,30 +48,30 @@
         <div class="container">
 
 
-                <div class="animated fadeIn row">
-                    <h1 class="studentWelcome center-align white-text flow-text">Contact your Teachers</h1>
-                    <ul class="collapsible testtt">
-    <li>
-      <div class="collapsible-header"><i class="material-icons">contact_mail</i>Mr. Wilson</div>
-      <div class="collapsible-body"><span>mrwilson@gmail.com</span></div>
-    </li>
-    <li>
-      <div class="collapsible-header"><i class="material-icons">contact_mail</i>Mrs. Tawzer</div>
-      <div class="collapsible-body"><span>mrstawzer@gmail.com</span></div>
+            <div class="animated fadeIn row">
+                <h1 class="studentWelcome center-align white-text flow-text">Contact your Teachers</h1>
+                <ul class="collapsible whiteBackCollapse">
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">contact_mail</i>Mr. Wilson</div>
+                        <div class="collapsible-body"><span id="emailContent1" class="flow-text"><a href="#">mrwilson@gmail.com </a></span> <a onclick="copyToClipboard(emailContent1)" class="btn-floating btn-large waves-effect waves-light grey"><i class="material-icons">content_copy</i></a></div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">contact_mail</i>Mrs. Tawzer</div>
+                        <div class="collapsible-body"><span id="emailContent2" class="flow-text"><a href="#">mrstawzer@gmail.com </a></span><a onclick="copyToClipboard(emailContent2)" class="btn-floating btn-large waves-effect waves-light grey"><i class="material-icons">content_copy</i></a></div>
     </li>
     <li>
       <div class="collapsible-header"><i class="material-icons">contact_mail</i>Mrs. Henderson</div>
-      <div class="collapsible-body"><span>mrshenderson@gmail.com</span></div>
-    </li>
-    <li>
-      <div class="collapsible-header"><i class="material-icons">contact_mail</i>Mr. Stasiak</div>
-      <div class="collapsible-body"><span>mrstasiak@gmail.com</span></div>
-    </li>
-  </ul>
+      <div class="collapsible-body"><span id="emailContent3" class="flow-text"><a href="#">mrshenderson@gmail.com </a></span><a onclick="copyToClipboard(emailContent3)" class="btn-floating btn-large waves-effect waves-light grey"><i class="material-icons">content_copy</i></a></div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">contact_mail</i>Mr. Stasiak</div>
+                        <div class="collapsible-body"><span id="emailContent4" class="flow-text"><a href="#">mrstasiak@gmail.com </a></span><a onclick="copyToClipboard(emailContent4)" class="btn-floating btn-large waves-effect waves-light grey"><i class="material-icons">content_copy</i></a></div>
+                    </li>
+                </ul>
 
-                </div>
             </div>
         </div>
+    </div>
 
 
 </body>
